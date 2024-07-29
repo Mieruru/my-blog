@@ -19,6 +19,14 @@ header {
     padding: 5px;
 }
 
+#btnThemeToggle {
+    position: absolute;
+    right: 5px;
+    border-radius: 5px;
+    color: var(--colorButtonText);
+    background-color: var(--colorButtonBG);
+}
+
 main {
     display: flex;
     flex-grow: 1;

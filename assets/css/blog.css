@@ -21,6 +21,7 @@ header {
 
 #btnBack {
     position: absolute;
+    top: 27px;
     right: 55px;
     border-radius: 5px;
     color: var(--colorButtonText);
@@ -30,6 +31,9 @@ header {
 #btnThemeToggle {
     position: absolute;
     right: 5px;
+    border-radius: 5px;
+    color: var(--colorButtonText);
+    background-color: var(--colorButtonBG);
 }
 
 main {
