@@ -1,4 +1,33 @@
+:root {
+    --colorText: #111;
+    --colorBG: #eee;
+    --colorBorder: #111;
+    --colorCardTitle: ;
+    --colorCardContent: ;
+    --colorButtonText: #eee;
+    --colorButtonBG: #111;
+}
+
+:root .dark {
+    --colorText: #eee;
+    --colorBG: #111;
+    --colorBorder: #eee;
+    --colorCardTitle: ;
+    --colorCardContent: ;
+    --colorButtonText: #111;
+    --colorButtonBG: #eee;
+}
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: lightgray;
+}
+
+.light {
+    color: var(--colorText);
+    background-color: var(--colorBG);
+}
+
+.dark {
+    color: var(--colorText);
+    background-color: var(--colorBG);
 }

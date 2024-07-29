@@ -14,7 +14,7 @@ header {
     justify-content: right;
     align-items: center;
     height: 80px;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid var(--colorBorder);
     margin-bottom: 5px;
     padding: 5px;
 }
@@ -24,7 +24,7 @@ main {
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    border-top: 4px solid black;
+    border-top: 4px solid var(--colorBorder);
 }
 
 section {
@@ -39,11 +39,11 @@ section {
 
 #aside {
     align-items: center;
-    border-right: 4px solid black;
+    border-right: 4px solid var(--colorBorder);
 }
 
 #form {
-    border-left: 4px solid black;
+    border-left: 4px solid var(--colorBorder);
 }
 
 h2 {
@@ -56,13 +56,16 @@ input {
 
 #postContent {
     width: 100%;
+    min-height: 24px;
+    max-height: 288px;
     border-radius: 5px;
+    resize: vertical;
 }
 
 #submit {
     width: 100%;
     height: 30px;
     border-radius: 5px;
-    background-color: black;
-    color: white;
+    background-color: var(--colorButtonBG);
+    color: var(--colorButtonText);
 }

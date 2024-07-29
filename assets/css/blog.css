@@ -14,7 +14,7 @@ header {
     justify-content: left;
     align-items: center;
     height: 80px;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid var(--colorBorder);
     margin-bottom: 5px;
     padding: 5px;
 }
@@ -22,6 +22,9 @@ header {
 #btnBack {
     position: absolute;
     right: 55px;
+    border-radius: 5px;
+    color: var(--colorButtonText);
+    background-color: var(--colorButtonBG);
 }
 
 #btnThemeToggle {
@@ -34,11 +37,11 @@ main {
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    border-top: 4px solid black;
-    border-bottom: 4px solid black;
+    border-top: 4px solid var(--colorBorder);
+    border-bottom: 4px solid var(--colorBorder);
 }
 
 footer {
-    border-top: 4px solid black;
+    border-top: 4px solid var(--colorBorder);
     margin-top: 5px;
 }
