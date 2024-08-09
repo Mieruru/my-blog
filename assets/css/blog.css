@@ -45,6 +45,10 @@ main {
     border-bottom: 4px solid var(--colorBorder);
 }
 
+/* .postcard {
+
+} */
+
 footer {
     border-top: 4px solid var(--colorBorder);
     margin-top: 5px;
