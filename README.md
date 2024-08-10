@@ -2,6 +2,9 @@
 
 [![GitHub License](https://img.shields.io/badge/license-MIT_License-006400.svg)](https://opensource.org/license/mit)
 
+## Live Deployment
+[My Blog](https://mieruru.github.io/my-blog/)
+
 ## Description
 
 This is a basic format blog making use of localstorage to store user input in the form of a name, a post title, and a post's content body. Posts are then pushed to the beginning of an array so that when the blog space is generated, it renders from most recent post downwards.
