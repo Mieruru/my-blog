@@ -1,55 +1,78 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
 header {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    height: 80px;
-    border-bottom: 4px solid var(--colorBorder);
-    margin-bottom: 5px;
-    padding: 5px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 80px;
+  border-bottom: 4px solid var(--colorBorder);
+  margin-bottom: 5px;
+  padding: 5px;
 }
 
 #btnBack {
-    position: absolute;
-    top: 27px;
-    right: 55px;
-    border-radius: 5px;
-    color: var(--colorButtonText);
-    background-color: var(--colorButtonBG);
+  position: absolute;
+  top: 27px;
+  right: 55px;
+  border-radius: 5px;
+  color: var(--colorButtonText);
+  background-color: var(--colorButtonBG);
 }
 
 #btnThemeToggle {
-    position: absolute;
-    right: 5px;
-    border-radius: 5px;
-    color: var(--colorButtonText);
-    background-color: var(--colorButtonBG);
+  position: absolute;
+  right: 5px;
+  border-radius: 5px;
+  color: var(--colorButtonText);
+  background-color: var(--colorButtonBG);
 }
 
 main {
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    justify-content: center;
-    border-top: 4px solid var(--colorBorder);
-    border-bottom: 4px solid var(--colorBorder);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  border-top: 4px solid var(--colorBorder);
+  border-bottom: 4px solid var(--colorBorder);
 }
 
-/* .postcard {
+.postcard {
+  width: 98%;
+  border: 2px solid var(--colorBorder);
+  border-radius: 10px 0 10px 0;
+  margin: 5px;
+  background-color: var(--colorCardContent);
+}
 
-} */
+.postcard h4 {
+  border-bottom: 2px solid var(--colorBorder);
+  border-top-left-radius: 10px;
+  margin: 0;
+  padding: 10px;
+  background-color: var(--colorCardTitle);
+}
+
+.postcard p {
+  margin: 0;
+  padding: 10px;
+}
+
+.author {
+  color: var(--colorCardNameText);
+  font-size: 80%;
+  font-style: italic;
+}
 
 footer {
-    border-top: 4px solid var(--colorBorder);
-    margin-top: 5px;
+  border-top: 4px solid var(--colorBorder);
+  margin-top: 5px;
 }

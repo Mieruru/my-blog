@@ -1,38 +1,39 @@
-const blogSpace = document.querySelector("main");
+const blogSpace = document.querySelector('main')
 
 function getPosts() {
   // retrieve array of posts from localstorage
-  let posts = JSON.parse(localStorage.getItem("posts"));
+  let posts = JSON.parse(localStorage.getItem('posts'))
 
   // for each object in the array:
   posts.forEach((post) => {
-    console.log(post);
+    console.log(post)
 
     // generate a new div inside of the body.main
-    const postCard = document.createElement("div");
-    const postTitle = document.createElement("h4");
-    const postContent = document.createElement("p");
-    const postAuthor = document.createElement("p");
+    const postCard = document.createElement('div')
+    const postTitle = document.createElement('h4')
+    const postContent = document.createElement('p')
+    const postAuthor = document.createElement('p')
 
     // populate the div with the data from the object
-    postCard.append(postTitle, postContent, postAuthor);
+    postCard.append(postTitle, postContent, postAuthor)
 
     // a title section
-    postTitle.textContent = post.title;
+    postTitle.textContent = post.title
 
     // the content of the post
-    postContent.textContent = post.content;
+    postContent.textContent = post.content
 
     // the author of the post
-    postAuthor.textContent = post.name;
+    postAuthor.textContent = post.name
+    postAuthor.classList.add('author')
 
     // puts the post in the blogSpace
-    blogSpace.appendChild(postCard);
+    blogSpace.appendChild(postCard)
 
     // add style to the post
-    postCard.classList.add("postcard");
-  });
+    postCard.classList.add('postcard')
+  })
 }
 
 // call the getPosts function
-getPosts();
+getPosts()

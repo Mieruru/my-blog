@@ -1,79 +1,79 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
 header {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    height: 80px;
-    border-bottom: 4px solid var(--colorBorder);
-    margin-bottom: 5px;
-    padding: 5px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 80px;
+  border-bottom: 4px solid var(--colorBorder);
+  margin-bottom: 5px;
+  padding: 5px;
 }
 
 #btnThemeToggle {
-    position: absolute;
-    right: 5px;
-    border-radius: 5px;
-    color: var(--colorButtonText);
-    background-color: var(--colorButtonBG);
+  position: absolute;
+  right: 5px;
+  border-radius: 5px;
+  color: var(--colorButtonText);
+  background-color: var(--colorButtonBG);
 }
 
 main {
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    justify-content: center;
-    border-top: 4px solid var(--colorBorder);
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  border-top: 4px solid var(--colorBorder);
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    height: 100%;
-    padding: 5px;
-    margin: 0 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+  padding: 5px;
+  margin: 0 2px;
 }
 
 #aside {
-    align-items: center;
-    border-right: 4px solid var(--colorBorder);
+  align-items: center;
+  border-right: 4px solid var(--colorBorder);
 }
 
 #form {
-    border-left: 4px solid var(--colorBorder);
+  border-left: 4px solid var(--colorBorder);
 }
 
 h2 {
-    align-self: center;
+  align-self: center;
 }
 
 input {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 #postContent {
-    width: 100%;
-    min-height: 24px;
-    max-height: 288px;
-    border-radius: 5px;
-    resize: vertical;
+  width: 100%;
+  min-height: 24px;
+  max-height: 288px;
+  border-radius: 5px;
+  resize: vertical;
 }
 
 #submit {
-    width: 100%;
-    height: 30px;
-    border-radius: 5px;
-    background-color: var(--colorButtonBG);
-    color: var(--colorButtonText);
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  background-color: var(--colorButtonBG);
+  color: var(--colorButtonText);
 }

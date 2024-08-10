@@ -1,33 +1,36 @@
-:root .light{
-    --colorText: #111;
-    --colorBG: #eee;
-    --colorBorder: #111;
-    --colorCardTitle: ;
-    --colorCardContent: ;
-    --colorButtonText: #eee;
-    --colorButtonBG: #111;
+:root .light {
+  --colorText: #111;
+  --colorBG: #eee;
+  --colorBorder: #111;
+  --colorCardTitle: #aaa;
+  --colorCardContent: #ccc;
+  --colorCardNameText: #555;
+  --colorButtonText: #eee;
+  --colorButtonBG: #111;
 }
 
 :root .dark {
-    --colorText: #eee;
-    --colorBG: #111;
-    --colorBorder: #eee;
-    --colorCardTitle: ;
-    --colorCardContent: ;
-    --colorButtonText: #111;
-    --colorButtonBG: #eee;
+  --colorText: #eee;
+  --colorBG: #111;
+  --colorBorder: #eee;
+  --colorCardTitle: #555;
+  --colorCardContent: #333;
+  --colorCardNameText: #aaa;
+  --colorButtonText: #111;
+  --colorButtonBG: #eee;
 }
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .light {
-    color: var(--colorText);
-    background-color: var(--colorBG);
+  color: var(--colorText);
+  background-color: var(--colorBG);
 }
 
 .dark {
-    color: var(--colorText);
-    background-color: var(--colorBG);
+  color: var(--colorText);
+  background-color: var(--colorBG);
 }
